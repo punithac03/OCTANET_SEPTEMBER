@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Food.jpg); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+span{
+    color: crimson;
+}
+.nav-bar p{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 56px;
+    color:#fff;
+    font-weight: 600;
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    color: #fff;
+    background: crimson;
+    font-size: 22px;
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
+#our-service {
+    background-color: white;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .bars {
+    height: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 2rem;
+    width: 100%;
+  }
+  @media (max-width: 990px) {
+    .bars {
+      flex-flow: column wrap;
+    }
+    .icon-container {
+      margin: 0 2.5rem;
+    }
+  }
+  .bars .icon-container {
+    max-width: 10rem;
+    flex: 1;
+  }
+  .icon-container img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .bars .txt-container {
+    flex: 2;
+    padding: 3rem;
+  }
+  .txt-container h5 {
+    font-size: 4rem;
+    color: crimson;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  .txt-container p {
+    font-size: 2.3rem;
+  }
+  footer {
+    font-size: 1.4rem;
+    background-color: #ce2f2f;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    color: #fafafa;
+  }
+  footer a {
+    color: #e3e3e3;
+    text-decoration: none;
+  }
